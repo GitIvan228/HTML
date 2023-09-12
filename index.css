@@ -1,0 +1,90 @@
+.container{
+    padding-top: 30px;
+    margin: auto;
+    max-width: 750px;
+    padding-bottom: 50px;   
+    font-family: in;
+}
+.bg-yellow{
+    background-color: #FCE38A;
+}
+.bg-red{
+    background-color: #F38181;
+}
+.bg-green{
+    background-color: #95E19E;
+}
+.bg-blue{
+    background-color: #D0FFF1;
+}
+
+
+.Avatar{
+   display: block;
+   
+    width: 200px;    
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px blue;
+   
+}
+
+.TG{
+    width: 40px;
+}
+.Insta{
+    width: 25px;
+}
+.card{
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    
+    border-radius: 12px;
+}
+.list li{
+    color: gray;
+    margin-bottom: 10px;
+    border-bottom:1px solid gray ;
+}
+a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+a:hover{
+    color: rgb(196, 196, 196);
+}
+
+
+.card form input ,form textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+}
+.card form h2{
+    text-align: center;
+}
+.info{
+    display: flex;
+}
+.info-text{
+    margin-left: 30px;
+}
+.btn{
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor:pointer;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    opacity: 0.9;
+}
